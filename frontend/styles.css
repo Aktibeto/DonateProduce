@@ -1,0 +1,40 @@
+h1 {
+    background-color: beige;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    text-align: center;
+}
+#first-heading {
+    font-weight: bolder;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    body {
+        background-color: white;
+    }
+}
+@media (max-width: 599px) {
+    body {
+        background-color: aliceblue;
+    }
+}
+
+h6, h2 {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+a {
+    display: flex;
+}
+
+img {
+    width: 1100px;
+    height: 400px;
+}
